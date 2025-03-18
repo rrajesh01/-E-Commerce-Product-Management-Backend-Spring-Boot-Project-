@@ -12,3 +12,10 @@ Database: MySQL
 File Handling: Multipart File Upload (for product images)
 API Style: RESTful APIs
 Frontend: React.js 
+
+Project Modules:
+Model Layer (Product.java): Defines the product entity with fields like name, description, price, and image data.
+Repository Layer (ProductRepo.java): Interface extending JpaRepository for database operations.
+Service Layer (ProductService.java): Contains business logic for handling products.
+Controller Layer (ProductController.java): Exposes REST APIs for product management.
+Resources: Application configuration and SQL data.
